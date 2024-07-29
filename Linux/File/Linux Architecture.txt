@@ -1,0 +1,7 @@
+Linux Architecture
+- Hardware
+- Kernel
+- Shell
+- Applications
+
+Q. What are distributions in Linux?
