@@ -5,3 +5,8 @@ Linux Architecture
 - Applications
 
 Q. What are distributions in Linux?
+Q. List out some file handling commands of Linux?
+Q. 
+
+------------------------------------------------------
+
