@@ -1,0 +1,3 @@
+OOPS
+- Major Pillars: Abstraction, Encapsulation, Inheritance, Modularity
+- Minor Pillars: Polymorphism, Multi-threading
