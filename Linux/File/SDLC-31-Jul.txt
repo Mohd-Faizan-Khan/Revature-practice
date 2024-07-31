@@ -1,0 +1,5 @@
+SDLC
+- HLD & LLD
+- Waterfall: (Liner-sequential) +ve & -ve 
+- Agile Manifesto
+- 

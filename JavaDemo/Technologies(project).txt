@@ -1,0 +1,1 @@
+Tech: Java, SQL, JSP, Servlet, JDBC, HTML, CSS, JS
