@@ -4,8 +4,17 @@ package com.classWork;
 
 public class P1 {
 	public static void main(String[] args) {
-		System.out.println("Enter a number of your choice: " + args[0]);
-		int a = Integer.parseInt(args[0]);
-		System.out.println("Your number when multiplied with 10 is: " +a*10);
+		System.out.println("Enter a number of your choice from command line: " + args[0]);
+		int a=0;
+		try {
+			a = Integer.parseInt(args[0]);
+		} catch (NumberFormatException e) {
+			// TODO: handle exception
+			e.printStackTrace();
+		} catch (ArrayIndexOutOfBoundsException e) {
+			// TODO: handle exception
+			e.printStackTrace();
+		}
+		System.out.println("Result: " +a*10);
 	}
 }
