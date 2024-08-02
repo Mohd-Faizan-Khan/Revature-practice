@@ -16,6 +16,7 @@ public class P2{
 		} catch (InvalidAgeException e) {
 			// TODO: handle exception
 			
+			
 		}
 		
 	}
