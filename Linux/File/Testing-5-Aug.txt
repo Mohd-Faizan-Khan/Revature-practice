@@ -1,0 +1,6 @@
+Testing
+- Automation Testing
+	> AAA: Arrange Act Assert
+	> Api: JUnit: Junit aggregator
+- @Test, @BeforeEach, @AfterEach, @BeforeAll, @AfterAll
+- Test driven development
