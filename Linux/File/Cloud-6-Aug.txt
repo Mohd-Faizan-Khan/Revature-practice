@@ -1,0 +1,6 @@
+Cloud Computing
+- IaaS, PaaS, SaaS
+- Private, Hybrid and Public
+- AWS:
+	EC2
+	AMI
