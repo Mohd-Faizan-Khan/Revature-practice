@@ -1,0 +1,19 @@
+Entity 1: StudentId StudentName CourseId
+Entity 2: CourseId,CourseName
+
+Q: Conceptual, logical and physical models
+
+- Normalization
+- ACID properties
+- Isolation Levels
+
+
+- https://www.mysqltutorial.org/
+
+- https://aws.amazon.com/getting-started/hands-on/create-mysql-db/
+
+- https://leetcode.com/studyplan/top-sql-50/
+
+- MySQL 3306
+
+- Multiplicity in data base
