@@ -1,0 +1,91 @@
+
+Functional Interface: (An interface with a single abstract method is called a functional interface)
+SAM Interface
+
+---------------------------------------------
+Lambda Expression
+Streams
+Optional Class
+
+
+
+----------------------------------------------------------------------------------------
+Q. Create a program to implement lambda expression to implement:
+- it should take 3 inp 1 string and 2 num and perform the mathematical addition, subtraction, multiplication, division
+
+Q. From the list display the names of the people starts with 'A'.
+[obj.stream().filter((n->n.startsWith(''))).forEach(n->sopln()]
+
+Q. Display names in capital case.
+[.map(n->n.toUpperCase())]
+
+
+Q. Write a mini app to stimulate stream api for this use an employee obj, having id, name, and salary. Your app should filter out employees, who have salary more than (amount). The other logic should be every employee gets a salary increment of 7% and the details of the employee should be stored in a new employee obj.
+
+
+
+
+
+
+=====================================================================================================================================
+package com.jasdhir.java8.streamsapi;
+
+import java.util.ArrayList;
+import java.util.List;
+import java.util.stream.Collectors;
+
+public class StreamDemo01 {
+public static void main(String[] args) {
+ 
+ List<String> names=new ArrayList();
+ 
+ names.add("Farid");
+ names.add("Hunter");
+ names.add("Stefan");
+ names.add("Justin");
+ names.add("Joseph");
+ 
+ System.out.println("******* Enhanced For Loop ************");
+ for(String name:names)
+  System.out.println(name);
+ 
+ System.out.println("********** For Each Method ****************");
+ //names.stream().forEach(name->System.out.println(name));
+ names.stream().forEach(System.out::println);
+ 
+ System.out.println("************** Filter Opration ********************");
+ 
+ names.stream().filter((n)->n.startsWith("J")).forEach(System.out::println);
+ 
+ System.out.println("******** Map Operation ***********");
+ names.stream().map(String::toUpperCase).forEach(System.out::println);
+ 
+ 
+ List<String> namesUpperCase=names.stream().sorted().map(String::toUpperCase)
+         .collect(Collectors.toList());
+ 
+ System.out.println(namesUpperCase);
+}
+}
+
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+package com.jasdhir.java8.optional;
+
+//Java program with Optional Class
+import java.util.Optional;
+public class OptionalDemo{
+ public static void main(String[] args) {
+  String[] words = new String[10];
+  Optional<String> checkNull =Optional.ofNullable(words[5]);
+  if (checkNull.isPresent()) {
+   String word = words[5].toLowerCase();
+   System.out.print(word);
+  } else
+   System.out.println("word is null");
+ }
+}
+
+ 
+ 
+
