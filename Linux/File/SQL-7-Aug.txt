@@ -60,3 +60,18 @@ How would you setup a primary key that automatically increments with every INSER
 What is the difference between scalar and aggregate functions? Give examples of each
 What are stored Procedure
 Explain the parameters types in Stored Procedure(IN,OUT,INOUT)
+
+
+
+
+====================================================================================================================================
+Referential Integrity and Database Normalization: 
+Referential integrity is closely linked to database normalization, which is the process of organizing data in a relational database to reduce redundancy and improve data integrity. By separating data into multiple tables and establishing relationships between them, normalization helps maintain referential integrity.
+In summary, referential integrity is a crucial concept in relational databases that ensures data consistency and accuracy by enforcing valid relationships between tables. It is enforced through constraints and plays a vital role in maintaining data quality and reliability.
+
+Importance of Referential Integrity
+To prevent the creation of orphan records, most relational database management systems (RDBMS) enforce referential integrity through constraints. These constraints ensure that any foreign key value must reference an existing primary key. When referential integrity is enforced, actions such as deleting a parent record can be configured to either:
+Cascade the delete to child records, removing all related orphan records.
+Restrict the delete if there are existing child records that would become orphaned.
+Set NULL or Set Default values in the child records when the parent record is deleted.
+In summary, orphan records are problematic as they disrupt the relational structure of a database. Enforcing referential integrity is essential in preventing their occurrence and maintaining data consistency and accuracy within the database system

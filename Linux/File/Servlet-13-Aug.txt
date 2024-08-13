@@ -1,0 +1,6 @@
+Flow:
+main--> service layer (interfaces/classes)--> DAO
+
+-Mocking framework
+
+https://www.bairesdev.com/blog/stub-vs-mock/
