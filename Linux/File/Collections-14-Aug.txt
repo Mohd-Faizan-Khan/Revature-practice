@@ -1,0 +1,17 @@
+Q. Create a list containing the members of your team.
+
+HashSet vs TreeSet vs LinkedHashSet
+
+HashTable vs HashMap
+
+element(), peek(), poll()
+
+Q. Write program to implement queue interface.
+
+Q. What data structures allow null?
+
+put()
+
+Q. Write a program to add 5 of your favourite movies in a list, and display them.
+
+Q. Create a class having id, name, and salary. Write code to sort the employee by id, name and salary.
